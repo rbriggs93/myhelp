@@ -8,7 +8,7 @@ directly at your command line? Then myhelp.sh might be for you!
 
 By default, the script attempts to create ~/.help, and fails if
 it cannot. Customize the directory in the #Config section of the
-script.
+script. Script defaults to nano, set your editor in #Config.
 
 If the script is called with no arguments, it will print the usage
 message and list all available help files, if any.
